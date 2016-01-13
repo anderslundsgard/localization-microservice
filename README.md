@@ -14,7 +14,7 @@ Typical users of the service are
 * Writers
 * Developers
 
-are not
-* translators
+Typical users of the service are **not**
+* Translators
  
 
