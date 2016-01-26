@@ -17,7 +17,7 @@ Typical users of the service are
 Typical users of the service are **not**
 * Translators
 
-## Tecniques
+## Technologies
 This project aim to utilize the MEAN stack.
 * MongoDB
 * Express
@@ -29,4 +29,3 @@ We are looking for collaborators. Have you any experience in seting up a MEAN st
 
 ![MEAN](/img/mean-diagram.png?raw=true "")
  
-
