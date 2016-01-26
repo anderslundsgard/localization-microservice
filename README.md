@@ -1,6 +1,14 @@
 # localization-microservice
 Localized content on your fingertips. Or at least RESTful access to your translated texts.
 
+## Installation
+* Install [Node.js](https://nodejs.org)
+* Clone this repo
+* Install Express: **npm install -g express-generator**
+* Run: **npm install**
+* Run: **npm start**
+* Browse to [http://localhost:3000](http://localhost:3000)
+
 ## Purpose
 Several [l18n](https://en.wikipedia.org/wiki/Internationalization_and_localization) applications I've seen have some kind of core component attached to the product and there by also couppled to its deploy cycle. This project aim to make a localization service that is:
 * small
