@@ -34,6 +34,5 @@ This project aim to utilize the MEAN stack.
 
 ## Collaborators
 We are looking for collaborators. Have you any experience in seting up a MEAN stack we appreciate your help!
-
 ![MEAN](/img/mean-diagram.png?raw=true "")
  
