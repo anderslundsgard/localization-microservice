@@ -1,0 +1,19 @@
+{
+  "language": "sv-SE",
+  "data": [
+    {
+      "key": "Veh1",
+      "value": "Fordon",
+      "comment": "The one that drives on the roads"
+    },
+    {
+      "key": "Dri1",
+      "value": "Förare",
+      "comment": "The one that drives the vehicle"
+    },
+    {
+      "key": "Ser1",
+      "value": "Service Planning"
+    }
+  ]
+}
