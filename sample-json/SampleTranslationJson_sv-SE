@@ -1,20 +1,40 @@
 {
-  "_id": "sv-SE",
-  "languagename": "Swedish",
-  "data": [
-    {
-      "key": "Veh1",
-      "value": "Fordon",
-      "comment": "The one that drives on the roads"
-    },
-    {
-      "key": "Dri1",
-      "value": "Förare",
-      "comment": "The one that drives the vehicle"
-    },
-    {
-      "key": "Ser1",
-      "value": "Service Planning"
-    }
-  ]
+    "_id" : "sv-SE",
+    "languagename" : "Swedish",
+    "data" : [ 
+        {
+            "key" : "Veh1",
+            "value" : "Fordon",
+            "comment" : "The one that drives on the roads"
+        }, 
+        {
+            "key" : "Dri1",
+            "value" : "Förare",
+            "comment" : "The one that drives the vehicle"
+        }, 
+        {
+            "key" : "Ser1",
+            "value" : "Service Planning"
+        }
+    ]
+}
+{
+    "_id" : "en-GB",
+    "languagename" : "English",
+    "data" : [ 
+        {
+            "key" : "Veh1",
+            "value" : "Vehicle",
+            "comment" : "The one that drives on the roads"
+        }, 
+        {
+            "key" : "Dri1",
+            "value" : "Driver",
+            "comment" : "The one that drives the vehicle"
+        }, 
+        {
+            "key" : "Ser1",
+            "value" : "Service Planning"
+        }
+    ]
 }
