@@ -25,12 +25,32 @@ var Document = mongoose.model('Document', transSchema);
 
 // Sample call: http://localhost:3000/?lat=59.2&lon=17.4&date=2016-01-14
 app.get('/document', function(req, res) {
-
+  var doc = Document.findOne({_id: req.query.lang});
+  //console.log(doc.);
+  //res.send(JSON.stringify(doc));
 });
 
 // Create a brand new document or preplace existing
 app.post('/document', function(req, res) {
-  var doc = new Document({ _id: req.query.lang, date: Date.now() });
+  var doc = new Document(
+      {
+          _id: req.query.lang,
+          date: Date.now(),
+          data: [
+          {
+              key: 'myKey-1',
+              value: 'myValue-1',
+              comment: 'myComment-1'
+          },
+          {
+              key: 'myKey-2',
+              value: 'myValue-2',
+              comment: 'myComment-2'
+          }
+        ]
+      }
+  );
+
   console.log('id: ' + doc._id);
   doc.save();
 });
