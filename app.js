@@ -9,21 +9,30 @@ db.on('error', console.error.bind(console, 'connection error...'));
 db.once('open', function callback() {
   console.log('test db opened');
 });
+
 var transSchema = mongoose.Schema({
-  name: String,
+  _id: String,
+  languagename: String,
+  data: [{
+    key: String,
+    value: String,
+    comment: String
+  }],
   date: Date
 });
-var Trans = mongoose.model('Translation', transSchema);
-var startup = new Trans({ name: 'Startup', date: Date.now() });
-console.log(startup.name);
-startup.save();
+
+var Document = mongoose.model('Document', transSchema);
 
 // Sample call: http://localhost:3000/?lat=59.2&lon=17.4&date=2016-01-14
-app.get('*', function(req, res) {
-  var log = new Trans({ name: 'LogCall', date: Date.now() });
-  console.log(log.name);
-  log.save();
-  console.log('Save done');
+app.get('/document', function(req, res) {
+
+});
+
+// Create a brand new document or preplace existing
+app.post('/document', function(req, res) {
+  var doc = new Document({ _id: req.query.lang, date: Date.now() });
+  console.log('id: ' + doc._id);
+  doc.save();
 });
 
 var port = 3000;
