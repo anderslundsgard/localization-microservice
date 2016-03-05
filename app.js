@@ -1,6 +1,9 @@
 var express = require('express');
 var app = express();
 
+app.use(express.static('public'));
+app.use(express.static('src/views'));
+
 // Mongo and Mongoose
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/test');
