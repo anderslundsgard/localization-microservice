@@ -24,7 +24,7 @@ var transSchema = mongoose.Schema({
   date: Date
 });
 
-var Document = mongoose.model('Document', transSchema);
+var TranslationDocument = mongoose.model('Document', transSchema);
 
 // Sample call: http://localhost:3000/?lat=59.2&lon=17.4&date=2016-01-14
 app.get('/document', function(req, res) {
@@ -35,7 +35,7 @@ app.get('/document', function(req, res) {
 
 // Create a brand new document or preplace existing
 app.post('/document', function(req, res) {
-  var doc = new Document(
+  var doc = new TranslationDocument(
       {
           _id: req.query.lang,
           date: Date.now(),
