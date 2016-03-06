@@ -38,3 +38,5 @@ public/lib
 
 # WebStorm IDE files
 .idea
+.idea/jsLibraryMappings.xml
+.idea/localization-microservice.iml
