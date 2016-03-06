@@ -35,3 +35,6 @@ node_modules
 
 # bower commponents
 public/lib
+
+# WebStorm IDE files
+.idea
