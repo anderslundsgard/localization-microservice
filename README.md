@@ -10,7 +10,7 @@ Localized content on your fingertips. Or at least RESTful access to your transla
 * Browse to [http://localhost:3000](http://localhost:3000)
 
 ## Purpose
-Several [l18n](https://en.wikipedia.org/wiki/Internationalization_and_localization) applications I've seen have some kind of core component attached to the product and there by also couppled to its deploy cycle. This project aim to make a localization service that is:
+Several [l18n](https://en.wikipedia.org/wiki/Internationalization_and_localization) applications I've seen have some kind of core component attached to the product and there by also coupled to its deploy cycle. This project aim to make a localization service that is:
 * small
 * independent deployable
 * is able to serve inserts/updates/delets of texts via REST api
