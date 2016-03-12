@@ -27,10 +27,10 @@ Typical users of the service are **not**
 
 ## Technology Stack
 This project aim to utilize the MEAN stack.
-* MongoDB
-* Express
-* AngularJS
-* Node.js
+* **M**ongoDB
+* **E**xpress
+* **A**ngularJS
+* **N**ode.js
 
 ## Collaborators
 We are looking for collaborators. Have you any experience in seting up a MEAN stack we appreciate your help!
