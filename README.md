@@ -25,7 +25,7 @@ Typical users of the service are
 Typical users of the service are **not**
 * Translators
 
-## Technologies
+## Technology Stack
 This project aim to utilize the MEAN stack.
 * MongoDB
 * Express
