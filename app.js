@@ -2,20 +2,11 @@ var express = require('express');
 var html = require('html');
 var app = express();
 
+var statRouter = require('./src/routes/statRoutes');
+
 app.use(express.static('public'));
 app.use(express.static('src/views'));
-//app.set('view engine', 'html');
 
-var statRouter = express.Router();
-statRouter.route('/')
-    .get(function(req, res) {
-        res.send('stat');
-    });
-
-statRouter.route('/single')
-    .get(function(req, res) {
-        res.send('Yey, single stat page!');
-    });
 app.use('/stat', statRouter);
 
 // Mongo and Mongoose
