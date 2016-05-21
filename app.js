@@ -3,11 +3,14 @@ var html = require('html');
 var app = express();
 
 var statRouter = require('./src/routes/statRoutes');
+var adminRouter = require('./src/routes/adminRoutes');
+
 
 app.use(express.static('public'));
 app.use(express.static('src/views'));
 
 app.use('/stat', statRouter);
+app.use('/admin', adminRouter);
 
 // Mongo and Mongoose
 var mongoose = require('mongoose');
